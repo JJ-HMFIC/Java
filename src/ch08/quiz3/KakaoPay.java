@@ -17,11 +17,13 @@ public class KakaoPay implements Payment{
 
     @Override
     public void approve() {
-
+        System.out.println("[카카오페이] 간편결제 승인 완료");
     }
 
     @Override
     public void cancel(String reason) {
-
+        System.out.println("[카카오페이] 결제 취소됨 - 사유: "+ reason);
     }
+
+
 }
