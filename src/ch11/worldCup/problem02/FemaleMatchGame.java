@@ -25,6 +25,6 @@ public class FemaleMatchGame extends MatchGame {
 
     @Override
     public Celebrity playGame() {
-        return null;
+        return super.playGame();
     }
 }
